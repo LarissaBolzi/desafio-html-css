@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'IDroid';
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --cor1: #ebe5c5;
+    --cor2: #83e1ad;
+    --cor3: #3ddc84;
+    --cor4: #2fa866;
+    --cor5: #1a5c37;
+    --cor6: #063d1e;
+
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-destaque: 'Bebas Neue';
+    --font-android: 'IDroid';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor5));
+    padding: 30px;
+}
+header > h1 {
+    text-align: center;
+    color: white;
+}
+
+header > p {
+    text-align: center;
+    color: white;
+}
+
+nav {
+    background-image: linear-gradient(to bottom, var(--cor5), var(--cor6));
+    padding-bottom: 5px;
+}
+
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 2px 25px 2px 15px;
+}
+
+nav > a:hover {
+    background-color: var(--cor5);
+}
+
+body {
+    background-color: var(--cor2);
+}
+main {
+    background-color: white; 
+    margin: auto; 
+    width: 85%;
+    border-radius: 0px 0px 20px 20px;  
+}
+
+main p {
+    font-family: var(--font-padrao);
+    text-indent: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+main strong {
+        color: var(--cor6);
+    }
+
+main a {
+    text-decoration: none;
+}
+
+main > h1 {
+    font-family: var(--font-android);
+    padding: 15px 20px;
+}
+
+article > h2 {
+    font-family: var(--font-android);
+    font-size: 20px;
+    padding: 10px 20px;
+    background-image: linear-gradient(to right, var(--cor3), var(--cor2), var(--cor1), white);
+}
+
+article > .img {
+    display: flex;
+    justify-content: center;
+}
+
+article > #video {
+    background-color: var(--cor6);
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    margin-bottom:10px;
+}
+
+aside > h3 {
+    color: white;
+    background-color: var(--cor4);
+    margin: 0px 40px 0px 40px;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+aside > #lista {
+    text-indent: 30px;
+    margin: 0px 40px 00px 40px;
+    background-color: var(--cor2);
+    padding-bottom: 5px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+aside > #lista > ul > li {
+    margin: 10px 60px 10px 60px;
+    text-indent: 10px;
+}
+
+article > #conclusao {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer > p > a:visited {
+    color: black;
+}

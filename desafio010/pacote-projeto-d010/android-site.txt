@@ -1,0 +1,110 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+[/EXTRA]
+
+         
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background-color: #84E1AD;
+}
+
+body > header > nav {
+    background-image: linear-gradient(#3CD882, #2B995B, #247F4C, #207043, #175031);
+    margin: -8px;
+    padding: 10px;
+}
+
+body > header > nav > h1 {
+    font-family: 'IDroid';
+    text-align: center;
+    color: white
+}
+
+body > header > nav > p {
+    text-align: center;
+    color: white
+}
+
+body > header > nav > a {
+    color: white;
+    text-decoration: none;
+    padding-right: 5px;
+    padding-left: 15px;
+}
+
+body > main > section#principal {
+    background-color: white;
+    height: 1200px;
+    width: 900px;
+    margin: -20px auto;
+}
+
+body > main > section#principal > h1 {
+    font-family: 'IDroid';
+    padding: 20px;
+    color: #42785C;
+}
+
+body > main > section#principal > p {
+    text-indent: 30px;
+    padding: 5px;
+    margin-top: -20px;
+}
+
+body > main > section#principal > article > h2 {
+    font-family: 'IDroid';
+    font-size: 20px;
+    color: #42785C;
+    padding: 10px;
+    margin-top: -10px;
+    background-image: linear-gradient(to right,#8BBAA0,#DAF2E5,#E1F5EA,white);
+}
+
+body > main > section#principal > article > p {
+    margin: -5px;
+    text-indent: 30px;
+    padding: 15px;
+}
+
+body > main > section#principal > article > p > strong {
+    color:rgb(14, 63, 36)
+}
+
+body > main > section#principal > article > p > a {
+    text-decoration: none;
+    color:rgb(14, 63, 36);
+}
+
+body > main > section#principal > article > img src {
+    align-items: center;
+}
+
+body > main > section#principal > div {
+    text-align: center;
+}
