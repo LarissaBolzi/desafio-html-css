@@ -30,25 +30,37 @@ header {
     padding: 30px;
 }
 header > h1 {
+    width: 100%;
     text-align: center;
     color: white;
+    font-family: var(--font-padrao);
+    font-size: 36px;
+    text-shadow: -2px 1px 7px black;
 }
 
 header > p {
     text-align: center;
     color: white;
+    margin: none;
+    font-family: var(--font-padrao);
 }
 
 nav {
     background-image: linear-gradient(to bottom, var(--cor5), var(--cor6));
+    font-family: var(--font-padrao);
+    font-size: 18px;
+    padding-top: 5px;
     padding-bottom: 5px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.363)
+
 }
 
 
 nav > a {
     text-decoration: none;
     color: white;
-    padding: 2px 25px 2px 15px;
+    padding: 2px 5px 2px 5px;
+    margin-top: 10px;
 }
 
 nav > a:hover {
@@ -58,10 +70,11 @@ nav > a:hover {
 body {
     background-color: var(--cor2);
 }
-main {
+
+main {  
     background-color: white; 
     margin: auto; 
-    width: 85%;
+    width: 90%;
     border-radius: 0px 0px 20px 20px;  
 }
 
@@ -103,6 +116,11 @@ article > #video {
     justify-content: center;
     padding: 10px 0px;
     margin-bottom:10px;
+    position: relative;
+}
+
+article > iframe {
+    position: absolute;
 }
 
 aside > h3 {
