@@ -72,9 +72,10 @@ body {
 }
 
 main {  
-    background-color: white; 
+    min-width: 320px;
+    max-width: 900px;
+    background-color: white;
     margin: auto; 
-    width: 90%;
     border-radius: 0px 0px 20px 20px;  
 }
 
@@ -114,7 +115,7 @@ article > #video {
     background-color: var(--cor6);
     display: flex;
     justify-content: center;
-    padding: 10px 0px;
+    padding: 10px 20px;
     margin-bottom:10px;
     position: relative;
 }
